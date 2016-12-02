@@ -1,0 +1,76 @@
+.uk-panel-box-secondary{
+	background: #fff;
+}
+.uk-article, .xb-comment-form-box{
+	border: 1px solid #f9f9f9;
+	    padding: 15px 20px;
+	    background: #fff;
+}
+.uk-article-title{
+	    font-size: 26px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0px;
+
+}
+.uk-article-title a:hover{
+	color: #07d;
+}
+.uk-article-title a{
+    transition: all .5s;
+}
+.uk-article-meta{
+	margin-top: 0px;
+}
+.uk-article-summary{
+	    overflow: hidden;
+    height: 75px;
+}
+.uk-article-info{
+	border-top: 1px dashed #636363;
+}
+.uk-article-cato{
+	margin-right: 40px;
+}
+.uk-description-list-line>dd{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.uk-breadcrumb{
+	background: #fff;
+    padding: 5px;
+}
+
+.xb-article{
+	padding: 15px 50px;
+    }
+
+.xb-article-meta{
+	font-size: 15px;
+}
+.uk-article-title{
+	    color: #07d;
+	    font-size: 36px;
+	        margin: 10px 0;
+}
+*+.uk-margin{
+	margin-top: 25px;
+}
+.uk-margin{
+	    margin-bottom: 25px;
+}
+.xb-article-info{
+	overflow: hidden;
+	    padding: 15px 0 0 0;
+}
+.uk-article-prenext{
+	cursor: pointer;
+}
+.uk-article-prenext:hover{}
+
+.uk-button-large{width: 100px;}
