@@ -44,5 +44,10 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('liuyan');
 	}
+
+	public function sxxt($value='')
+	{
+		$this->load->view('index');	
+	}
 }
 

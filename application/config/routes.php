@@ -59,4 +59,6 @@ $route['aboutme']='main/aboutme';
 $route['friendship']='main/friend';
 $route['study'] = 'main/study';
 $route['study/(:any)'] = 'article/cato/$1';
-$route['liuyan']= 'main/liuyan';
+$route['liuyan'] = 'main/liuyan';
+$route['sxxt/(:num)'] = 'article/sxxt/$1';
+$route['sxxt'] = 'main/sxxt/';

@@ -1,16 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="xb-header">
-	<div class="uk-container uk-container-center">
-		<a href="/"><img src="/static/img/logo.png" alt="心灵的孤僻"></a>
-        <span class="uk-text-muted uk-text-bottom" style="font-size: medium;">平心静气，尔之所需，岁月给予</span>
+<div class="xb-header-box">
+	<div class="uk-container uk-container-center xb-header uk-text-center">
+		<a href="/">
+        <img src="/static/img/logo.png" alt="心灵的孤僻">
+        <!-- <img src="/static/img/sublogo.png" alt="平心静气，尔之所需，岁月给予"> -->
+        </a>
+        <!-- <span class="uk-text-muted uk-text-bottom" style="font-size: medium;">平心静气，尔之所需，岁月给予</span> -->
 		<!-- <h2 class="uk-margin"><?php echo $head['title'];?></h2> -->
         <!-- <a class="uk-icon-search"></a> -->
 	</div>
-</div>
-<!-- 导航栏 -->
-<div>
+    <!-- 导航栏 -->
+<div class="xb-nav-box">
     <div class="uk-container uk-container-center">
         <nav class="uk-navbar xb-navbar">
             <ul id="xb-navbar-nav" class="uk-navbar-nav xb-navbar-nav">
@@ -25,6 +27,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 </div>
 <!-- 导航栏 end-->
+</div>
+
 <script type="text/javascript">
     var urls = ['/study','/sxxt', '/liuyan', '/aboutme', '/friendship'];
     $(function () {
@@ -36,4 +40,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             }
         });
     })
+
+    function setBackImg(argument) {
+        // body...
+    }
+
 </script>

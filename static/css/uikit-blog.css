@@ -2,7 +2,7 @@
 	background: #fff;
 }
 .uk-article, .xb-comment-form-box{
-	border: 1px solid #f9f9f9;
+	border: 1px solid rgba(51, 153, 255, 0.46);
 	    padding: 15px 20px;
 	    background: #fff;
 }
@@ -11,8 +11,8 @@
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-bottom: 0px;
-
+    color: #07d;
+	margin: 10px 0;
 }
 .uk-article-title a:hover{
 	color: #07d;
@@ -52,11 +52,6 @@
 
 .xb-article-meta{
 	font-size: 15px;
-}
-.uk-article-title{
-	    color: #07d;
-	    font-size: 36px;
-	        margin: 10px 0;
 }
 *+.uk-margin{
 	margin-top: 25px;

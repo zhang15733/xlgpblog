@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>雁过留影--到心灵的孤僻</title>
 	<script src="<?php echo base_url('static/js/public.js')?>"></script>
+	<link rel = "stylesheet" href="/static/uikit-2.25.0/css/components/tooltip.css"/>
 </head>
 <body>
 <div class="bg-box"></div>
@@ -24,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		        	<div class="uk-width-1-4"><input type="text" placeholder="用户名" class=""></div>
 		        	<div class="uk-width-1-4"><input type="password" placeholder="密码" class=""></div>
 		        	<div class="uk-width-1-4"><input type="text" placeholder="邮箱" class=""></div>
-		        	<div class="uk-width-1-4"><button type="submit" class="uk-button uk-button-primary uk-icon-send-o">提交</button></div>
+		        	<div class="uk-width-1-4"><button type="button" class="uk-button uk-button-primary uk-icon-send-o" data-uk-tooltip title="请稍候...">提交</button></div>
 		        </div>
 		        <div class="uk-form-row">
 		        	<textarea placeholder=""></textarea>
@@ -32,7 +33,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    </fieldset>
 		</form>	
 	</div>
-	
 		<!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="friendship" data-title="文章标题-洛神赋" data-url="http://blog.xlgp.me/friendship"></div>
 <!-- 多说评论框 end -->
@@ -53,6 +53,5 @@ var duoshuoQuery = {short_name:"xlgp"};
 <?php require_once('public/footer.php'); ?>
 </body>
 
-<script type="text/javascript">
-</script>
+<script  language="javascript" src="/static/uikit-2.25.0/js/components/tooltip.js"></script>
 </html>
