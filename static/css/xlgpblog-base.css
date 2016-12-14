@@ -14,7 +14,7 @@
 	/*background-image: url('/static/img/bg1.jpg');*/
 	/*opacity: .9;*/
 	background-size: cover;
-	/*background-position: center;*/
+	background-position: center;
 }
 .container{
 	        position: absolute;
