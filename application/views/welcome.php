@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    ?>
 	    <li>
 	    <div class="uk-cover-background uk-position-cover" style='background-image: url("http://img.infinitynewtab.com/wallpaper/<?php echo($value)?>.jpg");'></div>
-	    <canvas width="1000" height="600" style="width: 100%; height: auto; opacity: 0;"></canvas>
+	    <canvas width="1000" height="600" style="width: 100%; height: auto;"></canvas>
 	    </li>
 	    <?php }?>
 	    
@@ -46,6 +46,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </body>
 <script  language="javascript" src="/static/uikit-2.25.0/js/components/slideshow.js"></script>
 <script type="text/javascript">
-	 var szImg = ['Screenshot_20161126_131124.png','Screenshot_20161126_131614.png','Screenshot_20161126_131921.png','Screenshot_20161126_131614.png'];
 </script>
 </html>

@@ -1,17 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>心灵的孤僻的博客首页</title>
-	<script src="<?php echo base_url('static/js/public.js')?>"></script>
-</head>
-<body>
-<div class="bg-box"></div>
+?>
 <?php require_once('public/header.php');?>
 <div class="uk-container uk-container-center uk-margin">
-	
 	<!-- 主体 -->
 	<div class="uk-grid uk-margin">
 	    <div class="uk-width-3-4">
@@ -90,10 +81,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 </div>
 <?php require_once('public/footer.php'); ?>
-
 </body>
-
-<script type="text/javascript">
-	 var szImg = ['Screenshot_20161126_131124.png','Screenshot_20161126_131614.png','Screenshot_20161126_131921.png','Screenshot_20161126_131614.png'];
-</script>
 </html>

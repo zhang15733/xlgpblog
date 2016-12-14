@@ -1,6 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><?php echo $title;?></title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/uikit/2.25.0/css/uikit.min.css" />
+    <link rel = "stylesheet" href="/static/uikit-2.25.0/css/components/tooltip.css"/>
+    <link rel = "stylesheet" href="/static/css/uikit-blog.css"/>
+    <link rel = "stylesheet" href="/static/css/xlgpblog-base.css"/>
+    <script  language="javascript" src="/static/js/jquery-2.1.4.js"></script>
+    <script  language="javascript" src="/static/uikit-2.25.0/js/uikit.min.js"></script>
+    <script  language="javascript" src="/static/uikit-2.25.0/js/components/tooltip.js"></script>
+</head>
+<body>
+<div class="bg-box"></div>
 <div class="xb-header-box">
 	<div class="uk-container uk-container-center xb-header uk-text-center">
 		<a href="/">

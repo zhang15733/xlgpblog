@@ -112,12 +112,14 @@ small{
 
 }
 .xb-comment-form textarea{
-	width: 100%;min-height: 100px;
+	width: 100%;
+	min-height: 100px;
+	max-width: 100%;
 }
 
 .xb-comment-form button{
-	    letter-spacing: 10px;
-	    width: 50%;
+	    letter-spacing: 15px;
+	    width: 100%;
 }
 
 .xb-footer{

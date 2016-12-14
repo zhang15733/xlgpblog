@@ -1,16 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-	<title>博主自序--心灵的孤僻</title>
-	<script src="<?php echo base_url('static/js/public.js')?>"></script>
-</head>
-<body>
 <?php require_once('public/header.php');?>
-<div class="bg-box"></div>
+
 <div class="uk-container uk-container-center uk-margin">
 	<div class="uk-article">
 		<h2 class="uk-text-center">心灵的孤僻自序</h2>
@@ -22,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="aboutme" data-title="文章标题-洛神赋" data-url="http://blog.xlgp.me/aboutme"></div>
+	<div class="ds-thread" data-thread-key="aboutme" data-title="博主自序--心灵的孤僻" data-url="<?php echo base_url('/aboutme');?>"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
